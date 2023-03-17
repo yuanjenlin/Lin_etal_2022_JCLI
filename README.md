@@ -1,5 +1,5 @@
-# Lin_etal_2022_JCLI
-This repository includes the code to setup the Labrador Sea warming simulations and the code to reproduce the results in ***"YJ Lin, BEJ Rose, and YT Hwang. Mean state AMOC affects AMOC weakening through subsurface warming in the Labrador Sea"***, which has been submitted to J. Climate.
+# Lin_etal_2023_JCLI
+This repository includes the code to setup the Labrador Sea warming simulations and the code to reproduce the results in ***Lin, Yuan-Jen, Brian EJ Rose, and Yen-Ting Hwang. "Mean state AMOC affects AMOC weakening through subsurface warming in the Labrador Sea." Journal of Climate (2023): 1-44.***
 ## Labrador Sea warming simulations
 The simulations are conducted in the National Center for Atmospheric Research Community Earth System Model version 1.2.1 (CESM1.2.1) in which only the ocean component — Parallel Ocean Program version 2 (POP2) is active. 
 There are three main steps to run the simulations.
@@ -24,7 +24,7 @@ See `batch_submit_experiments.sh` for submitting 6x5 simulations at once, with e
 
 **(1) AMOC strength evaluation**
 
-See `AMOC_strength.ipynb` for evaluating AMOC strength in CMIP6 models.
+See `AMOC_strength.ipynb` for evaluating the AMOC strength in CMIP6 models.
 
-**Yuan-Jen Lin**  
+**Yuan-Jen Lin**
 [yuanjenlin@gmail.com](mailto:yuanjenlin@gmail.com)
